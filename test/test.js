@@ -17,6 +17,7 @@ test('Test open markdown file', async t => {
     const content = fs.readFileSync(viewsPath).toString()
     t.is(content.indexOf('<!DOCTYPE html>'), 0)
   } catch (e) {
+    console.log(e)
     t.fail()
   }
 })
@@ -30,6 +31,7 @@ test('Test create html file', async t => {
     const content = fs.readFileSync(viewsPath).toString()
     t.is(content.indexOf('<!DOCTYPE html>'), 0)
   } catch (e) {
+    console.log(e)
     t.fail()
   }
 })
