@@ -2,5 +2,5 @@ language: node_js
 node_js:
   - "4"
 before_script:
-  - npm install ava -g
+  - npm install npm@2.9.1 -g
   - npm link
