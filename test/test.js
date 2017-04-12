@@ -42,7 +42,7 @@ test('Test other option', async t => {
     const result = await cp.execAsync(cmd)
   } catch (err) {
     t.is(err.code, 1)
-    t.is(err.message.indexOf('error: unknown option `-c\''), 40)
+    t.not(err.message.indexOf('error: unknown option `-c\''), -1)
   }
 })
 
@@ -52,6 +52,6 @@ test('Test no option', async t => {
     const result = await cp.execAsync(cmd)
   } catch (err) {
     t.is(err.code, 1)
-    t.is(err.message.indexOf('error: option `-b, --browser <file>\' argument missing\n\n'), 40)
+    t.not(err.message.indexOf('error: option `-b, --browser <file>\' argument missing\n\n'), -1)
   }
 })
