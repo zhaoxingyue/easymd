@@ -40,8 +40,8 @@ $ easymd --help
 
   Examples:
 
-    $ mb -b index.md
-    $ mb -f index.md /your/html/path/ 
+    $ easymd -b index.md
+    $ easymd -f index.md /your/html/path/ 
 
 ```
 The simplest use case would be opening the markdown file in the browser:

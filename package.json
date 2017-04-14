@@ -1,7 +1,7 @@
 {
   "name": "easymd",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A simple cli for open markdown file",
   "main": "index.js",
   "bin": {
     "easymd": "lib/index.js"
