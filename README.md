@@ -60,7 +60,7 @@ $ easymd -f README.md
 ```
 or 
 ```
-$ easymd -f README.md /your/output/path
+$ easymd -f README.md /your/output/path 
 ```
 
 ## Running Tests & Contributing
