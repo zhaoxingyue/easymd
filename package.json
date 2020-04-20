@@ -18,7 +18,7 @@
     "commander": "^2.9.0",
     "highlight.js": "^9.10.0",
     "marked": "^0.3.6",
-    "open": "0.0.5",
+    "open": "7.0.3",
     "pygmentize-bundled": "^2.3.0",
     "shelljs": "^0.7.7"
   },
